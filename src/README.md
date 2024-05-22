@@ -22,7 +22,7 @@ To write a Java program to connect to a PostgreSQL database using JDBC and perfo
      ```
 3. Run the Java program to insert employee records and retrieve all employee records from the table.
 
-    <!-- - Use the following command to compile the Java code:
+    Use the following command to compile the Java code:
       ```bash
       javac -cp lib/postgresql-42.7.3.jar -d bin src/EmployeeDatabase.java
       ```
@@ -31,7 +31,7 @@ To write a Java program to connect to a PostgreSQL database using JDBC and perfo
       java -cp bin;lib/postgresql-42.7.3.jar EmployeeDatabase
       ``` -->
 
-<!-- 
+
 ### Detailed Procedure:
 
 1. **Connect to PostgreSQL Database:**
@@ -72,7 +72,7 @@ To write a Java program to connect to a PostgreSQL database using JDBC and perfo
 
 5. **Verify Data in PostgreSQL:**
    - After running the Java program, verify that the employee records have been successfully inserted into the "employees" table in PostgreSQL.
-   - You can use SQL queries (`SELECT * FROM employees`) in SQL Shell (psql) or pgAdmin to check the inserted data. -->
+   - You can use SQL queries (`SELECT * FROM employees`) in SQL Shell (psql) or pgAdmin to check the inserted data.
 
 
 
